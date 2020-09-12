@@ -314,9 +314,9 @@ if __name__ == '__main__':
     if len(sys.argv) == 2:
         filename = sys.argv[1]  # for drawing purposes
     else:
-        print("No input image given, so loading default image, messi5.jpg \n")
+        print("No input image given, so loading default image, test_img_1.jpg \n")
         print("Correct Usage: python grabcut.py <filename> \n")
-        filename = 'test8.jpg'
+        filename = 'test_img_1.jpg'
 
     img = cv.imread(filename)
     img2 = img.copy()                               # a copy of original image
