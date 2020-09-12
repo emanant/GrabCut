@@ -10,7 +10,7 @@ My implementation of _[Grabcut: Interactive foreground extraction using iterated
 -   scikit-learn
 -   python-igraph
 
-## File desctiptions
+## Files
 
 -   `GMM.py` - Gaussian mixture model
 -   `grabcut.py` - Core implementation of the algorithm.
